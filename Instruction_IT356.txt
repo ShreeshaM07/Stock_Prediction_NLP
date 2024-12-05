@@ -1,0 +1,34 @@
+INSTRUCTIONS, IT 356 (NLP) PROJECT:
+
+Path for SemEval Dataset 1 in code : 
+/kaggle/input/semeval/Headline_Trainingdata.json
+
+Path for SemEval Dataset 2 in code :
+/kaggle/input/semeval/Headline_Trialdata.json
+
+Path for FIQA Dataset 1 in code:
+/kaggle/input/fiqa-dataset/task1_headline_ABSA_train.json
+
+Path for FIQA Dataset 2 in code:
+/kaggle/input/fiqa-dataset/task1_post_ABSA_train.json
+
+For implementation, change paths as and where required. Dataset json files is given along with this instruction manual.
+{4 attached Json Files}
+
+Indian Dataset is obtained in code itself, with api calls.
+
+API_KEY used for LLM calls is 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
+This API_KEY has limited usage.
+
+Be sure to install required modules as mentioned in the code.
+
+Usage of GPU in preferred for better execution.
+
+Outputs of the code will be saved in local path, in the form of CSV Files.
+
+Also find attached are Outputs for a sample run.
+companies_with_aspect.csv is an example of Aspect extraction
+companies_with_sentiment.csv is an example of Sentiment extracted through both the models.
+final_sentiment.csv is an example of net sentiment of sentences in dataset.
+final_validness.csv is showing the movement with respect to predicted sentiment.
+execute all of this at nlp-financial-prediction-pipeline.ipynb
